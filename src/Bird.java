@@ -9,6 +9,11 @@ public abstract class Bird extends Animal {
         this.winged = winged;
     }
 
+    public  void doesNothing(){
+        System.out.println("Doing nothing.");
+    }
+
+
     private boolean winged;
 
     public Bird(boolean vertebres, boolean invertebres, String species, boolean winged) {
